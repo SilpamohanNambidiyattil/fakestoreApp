@@ -1,0 +1,25 @@
+1) "Category" Add
+url:http://127.0.0.1:8000/fakestore/api/category/
+method:post
+data:{"name":"Electronics"}
+authorization:nill
+
+2) Fetching "Category" details
+url:http://127.0.0.1:8000/fakestore/api/category/{id}/
+method:get
+data:nill
+authorization:nill
+
+3) Delecting "Category"
+url:http://127.0.0.1:8000/fakestore/api/category/{id}/
+method:delete
+data:nill
+authorization:nill
+
+4) List all "Category"
+url:http://127.0.0.1:8000/fakestore/api/category/
+method:get
+data:nill
+authorization:nill
+
+
